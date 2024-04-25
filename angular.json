@@ -30,7 +30,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/mini.css/dist/mini-default.min.css"
             ],
             "scripts": []
           },

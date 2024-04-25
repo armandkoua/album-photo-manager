@@ -1,0 +1,11 @@
+
+<div class="row"> 
+    <div class="column" *ngFor="let number of numbers" >   
+        <span *ngFor="let image of (imageService.getAll$() | async ) as images">
+         
+            <app-image [data]="image"></app-image>
+           
+        </span>     
+    </div>
+</div>
+  
